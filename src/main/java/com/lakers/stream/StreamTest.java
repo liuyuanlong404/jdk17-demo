@@ -9,6 +9,7 @@ import java.util.List;
  */
 public class StreamTest {
 
+
     public static void main(String[] args) {
         List<String> strings = List.of("lakers", "rose", "bob", "apple", "mac");
         List<String> stringList = strings.stream().filter(t -> t.length() > 5).toList();
