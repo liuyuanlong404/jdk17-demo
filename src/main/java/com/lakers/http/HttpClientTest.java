@@ -45,7 +45,7 @@ public class HttpClientTest {
                 {
                     "id" : 55,
                     "status" : 0
-                 }
+                }
                 """;
         HttpRequest request = HttpRequest.newBuilder(new URI(url))
                 // 设置Header:
